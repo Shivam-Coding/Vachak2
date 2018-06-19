@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="?android:attr/scrollbarSize"
+    android:paddingRight="?android:attr/scrollbarSize">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/user"
+        android:id="@+id/friends_imageView"
+        android:adjustViewBounds="false"
+        android:layout_marginTop="8dp" />
+
+    <LinearLayout
+        android:id="@+id/friends_linear_layout"
+        android:orientation="vertical"
+        android:layout_width="236dp"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="6dp">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/friends_name_textView"
+            android:layout_weight="1.19"
+            android:typeface="normal"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:id="@+id/friends_status_textView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/friends_time_textView" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/friends_phone_textView"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</LinearLayout>

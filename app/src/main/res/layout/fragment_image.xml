@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="udgaman.com.vachak2.fragments.ImageFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/windowBackground">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/image_fragment_bottom_linear_layout">
+
+            <Button
+                android:text="likes"
+                android:tag="likes"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/image_fragment_button_like"
+                android:layout_weight="1"
+                android:background="@color/windowBackground"
+                android:textColor="@color/white" />
+
+            <Button
+                android:text="update"
+                android:tag = "update"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/image_fragment_button_update"
+                android:layout_weight="1"
+                android:background="@color/windowBackground"
+                android:textColor="@color/white" />
+
+            <Button
+                android:text="comments"
+                android:tag="comments"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/image_fragment_button_comment"
+                android:layout_weight="1"
+                android:background="@color/windowBackground"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@color/windowBackground"
+        android:id="@+id/image_fragment_imageView"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/image_fragment_bottom_linear_layout"/>
+
+        <ProgressBar
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/image_fragment_progressBar"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+</FrameLayout>

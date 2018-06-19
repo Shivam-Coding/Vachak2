@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "425354965459",
+    "firebase_url": "https://vachak2-1eec0.firebaseio.com",
+    "project_id": "vachak2-1eec0",
+    "storage_bucket": "vachak2-1eec0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425354965459:android:853948e959f9f745",
+        "android_client_info": {
+          "package_name": "udgaman.com.vachak2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425354965459-kc8a4i20o91gjjr7rgiagln80j1t5ci8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgff9WRNfOPU1-hyHbkLK1yMXSRbpjEic"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
